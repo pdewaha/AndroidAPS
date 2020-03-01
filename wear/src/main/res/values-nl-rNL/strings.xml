@@ -8,10 +8,17 @@
     <string name="pref_show_date">Toon datum</string>
     <string name="pref_show_delta">Toon Delta</string>
     <string name="pref_show_avgdelta">Toon gemiddelde delta</string>
+    <string name="pref_show_loop_status">Toon loop status</string>
     <string name="pref_1_hour">1 uur</string>
     <string name="pref_2_hours">2 uren</string>
     <string name="pref_3_hours">3 uren</string>
     <string name="pref_4_hours">4 uren</string>
     <string name="pref_5_hours">5 uren</string>
     <string name="pref_default">Standaard</string>
+    <string name="menu_wizard">Wizard</string>
+    <string name="menu_bolus">Bolus</string>
+    <string name="menu_ecarb">eCarb</string>
+    <string name="menu_settings">Instellingen</string>
+    <string name="menu_status">Status</string>
+    <string name="menu_prime_fill">Ontlucht/vul</string>
 </resources>
