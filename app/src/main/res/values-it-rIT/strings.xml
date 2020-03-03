@@ -24,7 +24,7 @@
     <string name="description_food">Visualizza l\'elenco dei cibi definiti in Nightscout</string>
     <string name="description_insulin_rapid">Preset per insulina Humalog e NovoRapid</string>
     <string name="description_insulin_ultra_rapid">Preset per insulina Fiasp</string>
-    <string name="description_insulin_free_peak">Ti consente di definire il picco dell\'insulina e deve essere utilizzato solo dagli utenti avanzati</string>
+    <string name="description_insulin_free_peak">Ti consente di definire il picco di attività dell\'insulina e deve essere utilizzato solo dagli utenti avanzati</string>
     <string name="description_loop">Attiva o disattiva l\'implementazione del loop.</string>
     <string name="description_ns_client">Sincronizza i tuoi dati con Nightscout</string>
     <string name="description_ma">Stato dell\'algoritmo nel 2016</string>
@@ -41,7 +41,7 @@
     <string name="description_pump_dana_r_v2">Integrazione del microinfusore DANA Diabecare R con firmware aggiornato</string>
     <string name="description_pump_dana_rs">Integrazione del microinfusore DANA Diabecare RS</string>
     <string name="description_pump_mdi">Per le persone in terapia multi-iniettiva</string>
-    <string name="description_pump_virtual">Per microinfusori che non hanno ancora alcun driver (Loop Aperto)</string>
+    <string name="description_pump_virtual">Per microinfusori che non hanno ancora alcun driver (Loop aperto)</string>
     <string name="description_sensitivity_aaps">La sensibilità è calcolata allo stesso modo di Oref0, ma puoi specificare l\'intervallo di tempo al passato. L\'assorbimento minimo dei carboidrati è calcolato da \'max tempo assorbimento pasto\' nelle preferenze.</string>
     <string name="description_sensitivity_oref0">La sensibilità è calcolata dai dati delle ultime 24h e i carboidrati (se non assorbiti) vengono tagliati fuori dopo il tempo specificato nelle preferenze.</string>
     <string name="description_sensitivity_oref1">La sensibilità è calcolata dai dati delle ultime 8h e i carboidrati (se non assorbiti) vengono tagliati fuori dopo il tempo specificato nelle preferenze. Il Plugin calcola anche UAM.</string>
@@ -50,7 +50,7 @@
     <string name="description_source_glimp">Ricevi valori glicemia da Glimp.</string>
     <string name="description_source_mm640g">Ricevi valori glicemia da 600SeriesAndroidUploader.</string>
     <string name="description_source_ns_client">Scarica dati glicemia da Nightscout</string>
-    <string name="description_source_xdrip">Ricevi dati glicemia da xDrip.</string>
+    <string name="description_source_xdrip">Ricevi valori glicemia da xDrip.</string>
     <string name="description_treatments">Salva tutti i trattamenti che sono stati fatti</string>
     <string name="description_wear">Monitora e controlla AndroidAPS usando il tuo smartwatch WearOS.</string>
     <string name="description_xdrip_status_line">Mostra le informazioni del loop sulla watchface di xDrip+.</string>
@@ -638,8 +638,8 @@
     <string name="enablesmb">Abilita SMB</string>
     <string name="enablesmb_summary">Utilizza Super Micro Boli al posto della basale temporanea per un\'azione più veloce</string>
     <string name="enableuam_summary">Rilevazione dei pasti Non Annunciati</string>
-    <string name="insulin_oref_peak">IOB Curve Peak Time</string>
-    <string name="insulin_peak_time">Peak Time [min]</string>
+    <string name="insulin_oref_peak">Momento picco Curva IOB</string>
+    <string name="insulin_peak_time">Momento del picco [min]</string>
     <string name="free_peak_oref">Free-Peak Oref</string>
     <string name="rapid_acting_oref">Rapid-Acting Oref</string>
     <string name="ultrarapid_oref">Ultra-Rapid Oref</string>
