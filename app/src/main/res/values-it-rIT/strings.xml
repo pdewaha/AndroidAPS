@@ -195,7 +195,7 @@
     <string name="careportal_newnstreatment_sensor">Sensore</string>
     <string name="careportal_newnstreatment_carbs_label">CHO</string>
     <string name="careportal_newnstreatment_insulin_label">Insulina</string>
-    <string name="careportal_newnstreatment_carbtime_label">Tempo CHO</string>
+    <string name="careportal_newnstreatment_carbtime_label">Offset CHO</string>
     <string name="careportal_newnstreatment_split_label">Frazione</string>
     <string name="careportal_newnstreatment_duration_label">Durata</string>
     <string name="careportal_newnstreatment_percent_label">Percentuale</string>
