@@ -838,13 +838,13 @@
     <string name="pump_basebasalrate">%1$.2f U/h</string>
     <string name="combo_actvity_reading_basal_profile">Lettura profilo basale</string>
     <string name="combo_bolus_rejected_due_to_pump_history_change">Lo storico del micro è cambiato dopo il calcolo del bolo. Il bolo non è stato erogato. Ricalcolare se un bolo è ancora necessario.</string>
-    <string name="combo_error_updating_treatment_record">Bolo erogato con successo, ma impossibile aggiungere la voce ai trattamenti. Questo può accadere se due piccoli boli della stessa quantità sono stati somministrati negli ultimi due minuti. Verifica lo storico del micro e le voci della sezione Trattamenti e utilizza la sezione Portale per aggiungere eventuali voci mancanti. Assicurati di non aggiungere voci con lo stesso orario e con la stessa quantità.</string>
+    <string name="combo_error_updating_treatment_record">Bolo erogato con successo, ma non è possibile aggiungere la voce ai trattamenti. Questo può accadere se due piccoli boli della stessa quantità sono stati somministrati negli ultimi due minuti. Verifica lo storico del micro e le voci della sezione Trattamenti e utilizza la sezione Portale per aggiungere eventuali voci mancanti. Assicurati di non aggiungere voci che si riferiscano al medesimo minuto e alla stessa quantità.</string>
     <string name="combo_high_temp_rejected_due_to_pump_history_changes">Rifiuto basale temporanea \"alta\" in quanto il calcolo non ha considerato i cambiamenti recenti allo storico del micro</string>
     <string name="combo_activity_checking_pump_state">Aggiornamento stato micro</string>
     <string name="combo_warning_pump_basal_rate_changed">La velocità basale nel micro è cambiata e verrà aggiornata a breve</string>
     <string name="combo_error_failure_reading_changed_basal_rate">Velocità basale cambiata sul micro, ma la sua lettura è fallita</string>
     <string name="combo_activity_checking_for_history_changes">Controllo modifiche allo storico</string>
-    <string name="combo_error_multiple_boluses_with_identical_timestamp">Sono appena stati importati più boli con la stessa quantità nello stesso minuto. Solo un record può essere aggiunto ai trattamenti. Controlla il micro e aggiungi manualmente un record di bolo utilizzando la sezione Portale. Assicurati di creare un bolo con un orario non utilizzato da nessun altro bolo.</string>
+    <string name="combo_error_multiple_boluses_with_identical_timestamp">Sono appena stati importati più boli con la stessa quantità nello stesso minuto. Solo un record può essere aggiunto ai trattamenti. Controlla il micro e aggiungi manualmente un record di bolo utilizzando la sezione Portale. Assicurati di creare un bolo con un\'ora non utilizzata da nessun altro bolo.</string>
     <string name="about_link_urls">\n\nhttp://www.androidaps.org\nhttp://www.androidaps.de (de)\n\nfacebook:\nhttp://facebook.androidaps.org\nhttp://facebook.androidaps.de (de)</string>
     <string name="combo_check_date">L\'ultimo bolo è più vecchio di 24 ore o ha una data nel futuro. Controlla che la data sul micro sia impostata correttamente.</string>
     <string name="combo_suspious_bolus_time">L\'ora/la data del bolo erogato sul micro sembra errata, IOB probabilmente non è corretto. Controlla l\'ora e/o la data del micro.</string>
@@ -982,8 +982,8 @@
     <string name="low_temptarget_lowers_sensitivity_summary"><![CDATA[Riduci la sensibilità per temp-target < 100]]></string>
     <string name="combo_invalid_setup">Configurazione micro non valida, controlla la documentazione e verifica che il menu Quick Info sia denominato QUICK INFO utilizzando \"360 configuration software\".</string>
     <string name="custom">Personalizzato</string>
-    <string name="largetimedifftitle">Grande differenza d\'orario</string>
-    <string name="largetimediff">Grande differenza d\'orario:\nL\'orario nel micro differisce per più di 1h e 30m. \nRegola l\'ora manualmente e assicurati che la lettura dello storico dal micro non causi comportamenti imprevisti.\nSe possibile, cancella la cronologia del micro prima di cambiare l\'orario oppure disabilita il loop chiuso per un tempo corrispondente al tuo valore DIA.</string>
+    <string name="largetimedifftitle">Grande differenza oraria</string>
+    <string name="largetimediff">Grande differenza oraria:\nL\'ora nel micro differisce per più di 1h e 30m. \nRegola l\'ora manualmente e assicurati che la lettura dello storico dal micro non causi comportamenti imprevisti.\nSe possibile, cancella la cronologia del micro prima di cambiare l\'ora oppure disabilita il loop chiuso per un tempo corrispondente al tuo valore DIA.</string>
     <string name="careportal_removestartedevents">Rimuovi gli eventi \"AndroidAPS avviato\"</string>
     <string name="storedsettingsfound">Trovate impostazioni salvate</string>
     <string name="allow_hardware_pump_text">Attenzione: se attivi e connetti un micro, AndroidAPS copierà le impostazioni della basale dal profilo al micro, sovrascrivendo la velocità basale esistente memorizzata sul micro. Assicurati di avere la giusta impostazione della basale in AndroidAPS. Se non sei sicuro o non vuoi sovrascrivere le impostazioni della basale sul micro, premi annulla e ripeti il processo in un altro momento.</string>
@@ -1321,7 +1321,7 @@
     <string name="medtronic_error_pump_wrong_max_bolus_set">Max bolo errato impostato nel micro (deve essere %1$.2f).</string>
     <string name="medtronic_error_pump_wrong_max_basal_set">Max basale errata impostata nel micro (deve essere %1$.2f).</string>
     <string name="medtronic_error_operation_not_possible_no_configuration">Operazione non possibile.\n\n Devi prima configurare il micro Medtronic.</string>
-    <string name="medtronic_error_pump_24h_time_change_requested">È stata richiesta una modifica d\'orario di oltre 24h.</string>
+    <string name="medtronic_error_pump_24h_time_change_requested">È stata richiesta una modifica oraria di oltre 24h.</string>
     <!-- MDT History -->
     <string name="medtronic_history_group_basal">Basali</string>
     <string name="medtronic_history_group_configuration">Configurazioni</string>
@@ -1352,7 +1352,7 @@
     <string name="medtronic_cmd_basal_profile_not_set_is_same">Il profilo basale è lo stesso, non sarà impostato di nuovo.</string>
     <string name="medtronic_cmd_desc_get_history">Ottieni storico - Pagina %1$d (%2$d/16)</string>
     <string name="medtronic_cmd_desc_get_history_request">Ottieni storico - Pagina %1$d</string>
-    <string name="medtronic_cmd_desc_get_time">Ottieni orario micro</string>
+    <string name="medtronic_cmd_desc_get_time">Ottieni ora micro</string>
     <string name="medtronic_cmd_desc_get_settings">Ottieni impostazioni</string>
     <string name="medtronic_cmd_desc_get_model">Ottieni modello micro</string>
     <string name="medtronic_cmd_desc_get_basal_profile">Ottieni profilo basale</string>
@@ -1449,8 +1449,8 @@
     <string name="phonechecker">\"PhoneChecker\"</string>
     <string name="chartmenu">Menu grafico</string>
     <string name="sensitivity_short">AS</string>
-    <string name="loop_smbrequest_time_label">Richiesta SMB (orario)</string>
-    <string name="loop_smbexecution_time_label">Momento esecuzione SMB</string>
-    <string name="loop_tbrrequest_time_label">Momento esecuzione SMB</string>
-    <string name="loop_tbrexecution_time_label">Momento esecuzione basale temporanea</string>
+    <string name="loop_smbrequest_time_label">Richiesta SMB (momento)</string>
+    <string name="loop_smbexecution_time_label">Esecuzione SMB (momento)</string>
+    <string name="loop_tbrrequest_time_label">Richiesta basale temporanea (momento)</string>
+    <string name="loop_tbrexecution_time_label">Esecuzione basale temporanea (momento)</string>
 </resources>
