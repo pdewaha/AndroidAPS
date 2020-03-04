@@ -695,7 +695,7 @@
     <string name="waitingforestimatedbolusend">Attesa per la fine del bolo. Rimangono %1$d sec.</string>
     <string name="processinghistory">Evento di elaborazione</string>
     <string name="startingbolus">Avvio erogazione bolo</string>
-    <string name="executingrightnow">Il comando verrà eseguito ora</string>
+    <string name="executingrightnow">Il comando sarà eseguito ora</string>
     <string name="pumpdrivercorrected">Driver del micro corretto</string>
     <string name="pump_unreachable">Micro irraggiungibile</string>
     <string name="missed_bg_readings">Letture BG mancanti</string>
@@ -1449,7 +1449,7 @@
     <string name="phonechecker">\"PhoneChecker\"</string>
     <string name="chartmenu">Menu grafico</string>
     <string name="sensitivity_short">AS</string>
-    <string name="loop_smbrequest_time_label">Momento richiesta SMB</string>
+    <string name="loop_smbrequest_time_label">Richiesta SMB (orario)</string>
     <string name="loop_smbexecution_time_label">Momento esecuzione SMB</string>
     <string name="loop_tbrrequest_time_label">Momento esecuzione SMB</string>
     <string name="loop_tbrexecution_time_label">Momento esecuzione basale temporanea</string>
